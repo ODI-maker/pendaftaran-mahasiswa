@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran Berhasil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      animation: fadeIn 0.8s ease-in-out;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .card i {
+      font-size: 60px;
+      color: #4caf50;
+      margin-bottom: 20px;
+    }
+
+    .card h1 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: white;
+      background-color: #00796b;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+      display: inline-block;
+    }
+
+    .card a:hover {
+      background-color: #004d40;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <i class="fas fa-check-circle"></i>
+    <h1>Pendaftaran Berhasil!</h1>
+    <p>Terima kasih telah mengisi form pendaftaran. Data kamu sudah kami simpan.</p>
+    <a href="form.html">⬅ Kembali ke Form</a>
+  </div>
+</body>
+</html>
